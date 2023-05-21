@@ -1,10 +1,9 @@
 
 
 #writefile score.py 
-pip install tensorflow
+import streamlit as st
 import tensorflow as tf
 import numpy as np
-import streamlit as st
 from PIL import Image
 import requests
 from io import BytesIO
