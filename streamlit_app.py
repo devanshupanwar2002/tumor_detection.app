@@ -1,6 +1,6 @@
 
 
-%%writefile score.py 
+#writefile score.py 
 
 import tensorflow as tf
 import numpy as np
