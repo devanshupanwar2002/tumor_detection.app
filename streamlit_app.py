@@ -74,3 +74,6 @@ else:
     st.write("")
     image = Image.open(BytesIO(content))
     st.image(image, caption='Classifying MRI Image', use_column_width=True,output_format="auto")
+    
+    if __name__ == '__main__':
+    main()
