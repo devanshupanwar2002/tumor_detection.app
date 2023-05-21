@@ -1,7 +1,7 @@
 
 
 #writefile score.py 
-
+pip install tensorflow
 import tensorflow as tf
 import numpy as np
 import streamlit as st
