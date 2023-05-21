@@ -39,7 +39,7 @@ def add_bg_from_local(image_file):
     )
 add_bg_from_local('/content/drive/MyDrive/brain tumor detection/dataset_1/no/No12.jpg') 
 
-@st.cache_resource
+@st.cache(allow_output_mutation=True)
 def load_model():
     model = tf.keras.models.load_model('/content/drive/MyDrive/Colab Notebooks/braimtumor10epochs.h57')
     return model
